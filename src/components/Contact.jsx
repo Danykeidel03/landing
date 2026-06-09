@@ -78,7 +78,7 @@ export default function Contact() {
               onBlur={e => e.target.style.borderColor = 'var(--color-border)'}
             />
             <textarea
-              placeholder="Contame sobre tu proyecto..."
+              placeholder="Cuéntame sobre tu proyecto..."
               required rows={5}
               style={{ ...inputStyle, resize: 'none', lineHeight: 1.6 }}
               onFocus={e => e.target.style.borderColor = 'rgba(0,212,255,0.4)'}

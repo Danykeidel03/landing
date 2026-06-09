@@ -35,11 +35,11 @@ export default function Hero() {
 
             <h1 style={{ fontSize: 'clamp(2.4rem, 5vw, 3.8rem)', fontWeight: 800, lineHeight: 1.1, marginBottom: '24px' }}>
               <span style={{ color: 'var(--color-text)', display: 'block' }}>Hago webs que</span>
-              <span style={{ color: 'var(--color-accent)', display: 'block' }}>trabajan por vos.</span>
+              <span style={{ color: 'var(--color-accent)', display: 'block' }}>trabajan para ti.</span>
             </h1>
 
             <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: 1.8, marginBottom: '16px', maxWidth: '440px' }}>
-              Soy Daniel, desarrollador web. Creo sitios y tiendas online que atraen clientes, se ven profesionales y funcionan solos — para que vos te centres en tu negocio.
+              Soy Daniel, desarrollador web. Creo sitios y tiendas online que atraen clientes, se ven profesionales y funcionan solos — para que tú te centres en tu negocio.
             </p>
 
             <p style={{ color: 'var(--color-text-dim)', fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '40px', maxWidth: '400px' }}>
@@ -111,7 +111,7 @@ export default function Hero() {
               <span style={{ fontSize: '1.1rem' }}>💬</span>
               <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', lineHeight: 1.5 }}>
                 <strong style={{ color: 'var(--color-text)' }}>Primera consulta gratis.</strong>{' '}
-                Contame tu idea y te digo exactamente qué necesitás.
+                Cuéntame tu idea y te digo exactamente qué necesitas.
               </p>
             </div>
           </div>

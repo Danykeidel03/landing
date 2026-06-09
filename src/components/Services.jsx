@@ -32,10 +32,10 @@ export default function Services() {
           textAlign: 'center',
         }}>
           <h3 style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--color-text)', marginBottom: '12px' }}>
-            ¿Tenés un proyecto en mente?
+            ¿Tienes un proyecto en mente?
           </h3>
           <p style={{ color: 'var(--color-text-muted)', marginBottom: '32px', maxWidth: '400px', marginInline: 'auto' }}>
-            Contame qué necesitás y te digo si puedo ayudarte.
+            Cuéntame qué necesitas y te digo si puedo ayudarte.
           </p>
           <a href="#contact" style={{
             display: 'inline-flex', alignItems: 'center', gap: '8px',
