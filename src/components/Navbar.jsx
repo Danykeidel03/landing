@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const links = [
-  { label: 'sobre mí', href: '#about' },
+  { label: 'equipo', href: '#about' },
   { label: 'proyectos', href: '#projects' },
   { label: 'experiencia', href: '#experience' },
   { label: 'servicios', href: '#services' },
@@ -31,7 +31,7 @@ export default function Navbar() {
       <nav className="wrapper" style={{ height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
         <a href="#top" style={{ fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: '0.875rem', letterSpacing: '0.05em', color: 'var(--color-accent)', textDecoration: 'none' }}>
-          df<span style={{ color: 'var(--color-text-dim)' }}>.dev</span>
+          jk<span style={{ color: 'var(--color-text-dim)' }}>.studio</span>
         </a>
 
         {/* Desktop links */}

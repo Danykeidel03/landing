@@ -1,20 +1,18 @@
-import { personalInfo } from '../data'
-
-const results = [
+const values = [
   {
-    icon: '🌐',
-    title: 'Tu negocio, visible en internet',
-    desc: 'Webs rápidas, modernas y fáciles de encontrar en Google.',
+    icon: '💻',
+    title: 'Desarrollo web profesional',
+    desc: 'Tiendas, webs y aplicaciones que funcionan y se ven bien en cualquier pantalla.',
   },
   {
-    icon: '🛒',
-    title: 'Tiendas que venden solas',
-    desc: 'Catálogos, pagos y gestión de pedidos sin complicaciones.',
+    icon: '🎨',
+    title: 'Identidad y dirección creativa',
+    desc: 'Marca, imagen corporativa y narrativa visual con propósito y coherencia.',
   },
   {
-    icon: '📱',
-    title: 'Se ve bien en cualquier pantalla',
-    desc: 'Desde el móvil hasta el ordenador de tu cliente.',
+    icon: '🤝',
+    title: 'Tech y diseño bajo el mismo techo',
+    desc: 'Sin fricción entre lo visual y lo técnico. Del concepto al resultado final.',
   },
 ]
 
@@ -29,21 +27,21 @@ export default function Hero() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '28px' }}>
               <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--color-green)', flexShrink: 0, animation: 'pulse 2s infinite' }} />
               <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--color-green)', letterSpacing: '0.15em', textTransform: 'uppercase' }}>
-                disponible para nuevos proyectos
+                disponibles para nuevos proyectos
               </span>
             </div>
 
             <h1 style={{ fontSize: 'clamp(2.4rem, 5vw, 3.8rem)', fontWeight: 800, lineHeight: 1.1, marginBottom: '24px' }}>
-              <span style={{ color: 'var(--color-text)', display: 'block' }}>Hago webs que</span>
-              <span style={{ color: 'var(--color-accent)', display: 'block' }}>trabajan para ti.</span>
+              <span style={{ color: 'var(--color-text)', display: 'block' }}>Tech y diseño,</span>
+              <span style={{ color: 'var(--color-accent)', display: 'block' }}>todo en uno.</span>
             </h1>
 
             <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: 1.8, marginBottom: '16px', maxWidth: '440px' }}>
-              Soy Daniel, desarrollador web. Creo sitios y tiendas online que atraen clientes, se ven profesionales y funcionan solos — para que tú te centres en tu negocio.
+              Somos Daniel y Carlos — desarrollo web profesional y dirección creativa en un mismo equipo, para negocios que necesitan las dos cosas.
             </p>
 
             <p style={{ color: 'var(--color-text-dim)', fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '40px', maxWidth: '400px' }}>
-              Más de 2 años trabajando con negocios reales. Sin tecnicismos, sin sorpresas.
+              Sin intermediarios entre la idea y la pantalla. Sin separar lo visual de lo funcional.
             </p>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
@@ -57,7 +55,7 @@ export default function Hero() {
                 onMouseEnter={e => e.currentTarget.style.background = 'var(--color-accent-dim)'}
                 onMouseLeave={e => e.currentTarget.style.background = 'var(--color-accent)'}
               >
-                Quiero mi web →
+                Hablemos →
               </a>
               <a href="#projects" style={{
                 padding: '14px 28px',
@@ -69,14 +67,14 @@ export default function Hero() {
                 onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--color-border-2)'; e.currentTarget.style.background = 'var(--color-surface)' }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--color-border)'; e.currentTarget.style.background = 'transparent' }}
               >
-                Ver ejemplos
+                Ver proyectos
               </a>
             </div>
           </div>
 
-          {/* Right — results card */}
+          {/* Right — value props */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            {results.map((item, i) => (
+            {values.map((item, i) => (
               <div key={i} style={{
                 display: 'flex', alignItems: 'flex-start', gap: '20px',
                 background: 'var(--color-surface)',
@@ -111,7 +109,7 @@ export default function Hero() {
               <span style={{ fontSize: '1.1rem' }}>💬</span>
               <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', lineHeight: 1.5 }}>
                 <strong style={{ color: 'var(--color-text)' }}>Primera consulta gratis.</strong>{' '}
-                Cuéntame tu idea y te digo exactamente qué necesitas.
+                Cuéntanos tu proyecto y te decimos exactamente qué necesitas.
               </p>
             </div>
           </div>

@@ -7,9 +7,23 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/daniel-fernandez-fer24191/',
   github: 'https://github.com/',
   availability: true,
+  image: '/imgs/5854825184152456815.jpg',
   bio: 'Desarrollo soluciones. Pero sobre todo, resuelvo problemas.',
   description:
     'Especialista en Magento 2 y tecnologías modernas como React y Node.js. Me enfoco en unir backend robusto con interfaces limpias, rápidas y usables.',
+  tags: ['Magento 2', 'Hyvä Themes', 'React', 'Node.js', 'Docker', 'IA aplicada'],
+}
+
+export const partnerInfo = {
+  name: 'Carlos Salamanca',
+  role: 'Dirección Creativa & Diseño',
+  specialty: 'Management · Diseño Gráfico · Imagen Corporativa',
+  email: 'pragmayama@gmail.com',
+  image: '/imgs/44e390dd-d1dd-40dc-b03b-b8280f8b43af.png',
+  bio: 'Estrategia, imagen y lenguaje: un solo proceso.',
+  description:
+    'Profesional multidisciplinar especializado en management, diseño gráfico e imagen fotográfica y corporativa. Desarrollo ideas que se convierten en narrativas visuales y conceptuales, combinando estrategia, estética y comunicación. Construye identidades sólidas a través de la imagen, el lenguaje y la dirección creativa. Explora el potencial del prompt engineering como extensión del proceso creativo en entornos digitales.',
+  tags: ['Diseño gráfico', 'Imagen corporativa', 'Dirección creativa', 'Fotografía', 'Prompt engineering', 'Estrategia'],
 }
 
 export const stack = [
@@ -128,5 +142,23 @@ export const services = [
     title: 'Entornos y Despliegue',
     description:
       'Configuración de entornos Docker, pipelines de despliegue y mantenimiento de aplicaciones en producción.',
+  },
+  {
+    icon: '🎨',
+    title: 'Identidad & Diseño Visual',
+    description:
+      'Construcción de identidades de marca sólidas: diseño gráfico, imagen corporativa y dirección creativa con visión estratégica.',
+  },
+  {
+    icon: '📸',
+    title: 'Imagen Fotográfica Corporativa',
+    description:
+      'Fotografía corporativa y narrativa visual al servicio de la marca. Imágenes que comunican con intención y coherencia.',
+  },
+  {
+    icon: '🧠',
+    title: 'Estrategia & Prompt Engineering',
+    description:
+      'Gestión de proyectos creativos e integración de IA como herramienta de diseño. Del concepto a la imagen, del texto a la forma.',
   },
 ]
