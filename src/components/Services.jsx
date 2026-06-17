@@ -7,7 +7,7 @@ export default function Services() {
         <span className="section-eyebrow">// servicios</span>
         <h2 className="section-title">¿En qué puedo ayudarte?</h2>
         <p className="section-subtitle">
-          Desarrollo soluciones a medida, desde tiendas Magento hasta aplicaciones web completas.
+          Desarrollo soluciones informáticas a medida en León, desde tiendas Magento hasta aplicaciones web completas.
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px', marginBottom: '64px' }}>

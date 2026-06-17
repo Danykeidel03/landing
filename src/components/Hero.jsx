@@ -37,7 +37,7 @@ export default function Hero() {
             </h1>
 
             <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: 1.8, marginBottom: '16px', maxWidth: '440px' }}>
-              Somos Daniel y Carlos — desarrollo web profesional y dirección creativa en un mismo equipo, para negocios que necesitan las dos cosas.
+              Somos Daniel y Carlos — desarrollo web profesional y dirección creativa en un mismo equipo. Ofrecemos soluciones informáticas a medida en León, presenciales o en remoto, para negocios que necesitan las dos cosas.
             </p>
 
             <p style={{ color: 'var(--color-text-dim)', fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '40px', maxWidth: '400px' }}>
